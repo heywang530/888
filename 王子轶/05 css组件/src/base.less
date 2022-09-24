@@ -1,0 +1,40 @@
+// 定义变量
+@color: #6F5499;
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+// 定义设置盒子居中方法
+.wcenter(@w: 200px, @mt: 0, @mb: @mt) {
+    width: @w;
+    margin: @mt auto @mb;
+}
+
+
+// 定义文字垂直居中的方法
+.hlh(@h) {
+    height: @h;
+    line-height: @h;
+}
+
+// 定义设置btn按钮的方法
+.ui-btn(@c: @color, @bg: #fff) {
+    color: @c;
+    background-color: @bg;
+    padding: 15px 40px;
+    border: 1px solid @color;
+    &:hover {
+        color: @bg;
+        background-color: @c;
+    }
+}
+
+

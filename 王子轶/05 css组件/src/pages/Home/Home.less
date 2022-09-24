@@ -1,0 +1,115 @@
+// 引入base.less
+@import url('../../base.less');
+
+.home-page {
+    // banner部分
+    .banner {
+        background-color: @color;
+        padding: 85px 0 140px 0;
+        color: #fff;
+        text-align: center;
+
+        .logo {
+            .wcenter(150px);
+            font-size: 100px;
+            border: 1px solid #fff;
+            padding: 15px;
+            text-align: center;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            .wcenter(905px);
+            font-size: 35px;
+            // padding: 0 15px;
+            text-align: center;
+        }
+
+        .btn {
+            .ui-btn(#fff, @color);
+            border: 1px solid #fff;
+            margin: 20px 0 35px 0;
+        }
+
+
+        .text {
+            color: lighten(@color, 30%);
+        }
+
+
+
+        
+    }
+
+    // first部分
+    .first-module {
+        padding: 220px 0 90px 0;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+
+        h1 {
+            font-size: 45px;
+            padding-bottom: 15px;
+        }
+
+        .intro {
+            font-size: 27px;
+            .wcenter(1160px);
+        }
+    
+        .line {
+            border-top: 1px solid #ccc;
+            .wcenter(200px);
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            display: flex;
+            .item {
+                width: (100% / 3);
+                img {
+                    width: 100%;
+                }
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                .item_intro {
+                    padding: 0 10px;
+                    line-height: 23px;
+                }
+
+            }
+
+
+            
+        }
+
+        
+        .text {
+            font-size: 26px;
+        }
+
+        .btn {
+            .ui-btn();
+        }
+    }
+
+
+    // secode部分
+    .second-module {
+        // 使用混合类
+        .first-module;
+        .item {
+            width: (100% / 4);
+            img {
+                width: 100%;
+                padding: 0 1px;
+            }
+        }
+
+    }
+}
