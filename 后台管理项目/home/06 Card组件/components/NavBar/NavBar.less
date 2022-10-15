@@ -1,0 +1,61 @@
+.navbar-com {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+    background-color: #07A6A6;
+    text-align: center;
+    color: #fff;
+
+    .left,
+    .right {
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        flex: 1;
+        h1 {
+            margin: 0;
+            font-size: 23px;
+            font-weight: normal;
+        }
+    }
+
+
+    // 搜索框
+    .inp {
+        display: flex;
+        position: absolute;
+        background-color: #fff;
+        padding: 10px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
+        input {
+            flex: 1;
+            background-color: #eee;
+            outline: none;
+            padding: 0 20px;
+            border: none;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+
+        span {
+            padding-right: 20px;
+            color: #555;
+            background-color: #eee;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            line-height: 30px;
+            font-size: 13px;
+        }
+
+    }
+}

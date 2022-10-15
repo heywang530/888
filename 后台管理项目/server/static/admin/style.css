@@ -1,0 +1,30 @@
+.lessonList {
+  background-color: #efefef;
+}
+.lessonList .card_item {
+  margin: 20px;
+  background-color: #fff;
+}
+.lessonList .card_item img {
+  width: 100%;
+}
+.lessonList .card_item h2 {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+.lessonList .card_item .price-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.lessonList .card_item .price-part .price {
+  color: red;
+}
+.lessonList .card_item .btns .am-button {
+  margin-right: 5px;
+}
+.lessonList .card_item .btns .am-button:last-child {
+  margin-right: 0;
+}
+

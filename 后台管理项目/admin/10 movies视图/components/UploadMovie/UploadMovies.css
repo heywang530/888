@@ -1,0 +1,8 @@
+.uploadMovies .am-list-content {
+  width: 85px!important;
+  margin-right: 5px!important;
+  flex: none!important;
+}
+.uploadMovies .am-list-extra {
+  flex: 1;
+}
